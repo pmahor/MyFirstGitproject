@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="suit1" verbose="1" >
+  <test name="testing" >
+    <classes>
+      <class name="src.main.java.FirstPack.First_Maven_proj.First_Test_Class.java"/>
+    </classes>
+ </test>
+</suite>
