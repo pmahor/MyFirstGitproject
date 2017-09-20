@@ -8,10 +8,12 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
-@Test
-public class First_Test_Class {
 
-	public static void main(String[] args) throws InterruptedException {
+public class First_Test_Class {
+	
+
+	@Test
+	public static void firstmethod() throws InterruptedException {
 		
 		System.setProperty("webdriver.chrome.driver","D:\\Pankaj BACKUP\\Selenium\\Workspace\\First_Selenium_Project\\libraries\\chromedriver.exe");
 		WebDriver driver =new ChromeDriver(); 
