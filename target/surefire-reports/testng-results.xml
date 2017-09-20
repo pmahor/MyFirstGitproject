@@ -2,34 +2,34 @@
 <testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="12215" started-at="2017-09-20T06:41:39Z" finished-at="2017-09-20T06:41:52Z">
+  <suite name="Suite" duration-ms="14153" started-at="2017-09-20T07:19:24Z" finished-at="2017-09-20T07:19:39Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="12215" started-at="2017-09-20T06:41:39Z" finished-at="2017-09-20T06:41:52Z">
+    <test name="Test" duration-ms="14153" started-at="2017-09-20T07:19:24Z" finished-at="2017-09-20T07:19:39Z">
       <class name="FirstPack.First_Maven_proj.First_Test_Class">
-        <test-method status="FAIL" signature="firstmethod()[pri:0, instance:FirstPack.First_Maven_proj.First_Test_Class@5d012c]" name="firstmethod" duration-ms="12187" started-at="2017-09-20T12:11:39Z" finished-at="2017-09-20T12:11:52Z">
+        <test-method status="FAIL" signature="firstmethod()[pri:0, instance:FirstPack.First_Maven_proj.First_Test_Class@5d012c]" name="firstmethod" duration-ms="14125" started-at="2017-09-20T12:49:24Z" finished-at="2017-09-20T12:49:39Z">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
-              <![CDATA[unknown error: Element is not clickable at point (355, 700)
+              <![CDATA[unknown error: Element is not clickable at point (361, 700)
   (Session info: chrome=61.0.3163.91)
   (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 6.1.7601 SP1 x86) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
 Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
 System info: host: 'G5-PC', ip: '192.168.101.179', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_66'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\pmahor\AppData\Local\Temp\scoped_dir6128_5128}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=61.0.3163.91, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 9278dbc0e964dae5053c37e92def17b9]]>
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\pmahor\AppData\Local\Temp\scoped_dir2744_3248}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=61.0.3163.91, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 427b718356e37fe5220a341584e2f20a]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: Element is not clickable at point (355, 700)
+              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: Element is not clickable at point (361, 700)
   (Session info: chrome=61.0.3163.91)
   (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 6.1.7601 SP1 x86) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
 Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
 System info: host: 'G5-PC', ip: '192.168.101.179', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_66'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\pmahor\AppData\Local\Temp\scoped_dir6128_5128}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=61.0.3163.91, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 9278dbc0e964dae5053c37e92def17b9
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\pmahor\AppData\Local\Temp\scoped_dir2744_3248}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=61.0.3163.91, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 427b718356e37fe5220a341584e2f20a
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -44,7 +44,7 @@ Session ID: 9278dbc0e964dae5053c37e92def17b9
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
 	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:275)
 	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:82)
-	at FirstPack.First_Maven_proj.First_Test_Class.firstmethod(First_Test_Class.java:32)
+	at FirstPack.First_Maven_proj.First_Test_Class.firstmethod(First_Test_Class.java:33)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
